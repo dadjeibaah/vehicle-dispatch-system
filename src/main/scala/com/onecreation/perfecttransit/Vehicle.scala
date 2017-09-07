@@ -25,6 +25,7 @@ case object InfoRequest extends VehicleMessage
 case object TransitToNextStop extends VehicleMessage
 case object Decommission extends VehicleMessage
 case object Decommissioned extends VehicleMessage
+case object VehicleDispatched extends VehicleMessage
 
 case class RouteAssigned(name: String, direction: String) extends VehicleMessage
 
